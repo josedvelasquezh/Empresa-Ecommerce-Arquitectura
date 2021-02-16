@@ -9,4 +9,8 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
 </Project>
