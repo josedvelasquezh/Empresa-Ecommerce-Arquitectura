@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.Ecommerce.Transversal.Common", "Daniel.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj", "{F4CE2FDA-F7E7-4A78-9E42-27359A3A4FBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.Ecommerce.Transversal.Common", "Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj", "{F4CE2FDA-F7E7-4A78-9E42-27359A3A4FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
