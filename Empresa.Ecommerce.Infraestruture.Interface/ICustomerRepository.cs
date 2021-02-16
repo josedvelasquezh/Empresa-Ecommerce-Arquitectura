@@ -10,7 +10,6 @@ namespace Empresa.Ecommerce.Infraestruture.Interface
     public interface ICustomerRepository
     {
         #region Metodos Sincronos
-
         bool Insert(Customers customer);
         bool Update(Customers customer);
         bool Delete(String customerId);
