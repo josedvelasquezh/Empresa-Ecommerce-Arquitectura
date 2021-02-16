@@ -2,5 +2,5 @@
 
 
 #Nugget
-System.Data.SqlClient
-Microsoft.Extensions.Configuration
+#System.Data.SqlClient
+#Microsoft.Extensions.Configuration
