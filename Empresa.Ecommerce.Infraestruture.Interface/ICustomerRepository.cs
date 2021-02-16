@@ -11,20 +11,20 @@ namespace Empresa.Ecommerce.Infraestruture.Interface
     {
         #region Metodos Sincronos
 
-        bool Insert(Customer customer);
-        bool Update(Customer customer);
+        bool Insert(Customers customer);
+        bool Update(Customers customer);
         bool Delete(String customerId);
-        Customer Get(String customerId);
-        IEnumerable<Customer> GetAll();
+        Customers Get(String customerId);
+        IEnumerable<Customers> GetAll();
 
         #endregion
 
         #region Metodos Asincronos
-        Task<bool> InsertAsync(Customer customer);
-        Task<bool> UpdateAsync(Customer customer);
+        Task<bool> InsertAsync(Customers customer);
+        Task<bool> UpdateAsync(Customers customer);
         Task<bool> DeleteAsync(String customerId);
-        Task<Customer> GetAsync(String customerId);
-        Task<IEnumerable<Customer>> GetAllAsync();
+        Task<Customers> GetAsync(String customerId);
+        Task<IEnumerable<Customers>> GetAllAsync();
 
         #endregion
     }
