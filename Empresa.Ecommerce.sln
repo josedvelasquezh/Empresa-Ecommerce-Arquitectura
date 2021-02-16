@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empresa.Ecommerce.Transversal.Common", "Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj", "{F4CE2FDA-F7E7-4A78-9E42-27359A3A4FBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Empresa.Ecommerce.Transversal.Common", "Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj", "{F4CE2FDA-F7E7-4A78-9E42-27359A3A4FBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{02D645CE-6933-4C1D-B387-621D29130674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{9085B0D6-E053-456F-9D91-21F14E5F68D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{1696B6BE-25A9-4A26-A530-7353B07B0489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{87DD90F5-914E-49A1-A6AE-F91A3186915B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{C56DBA1E-B305-40C0-AD32-B69FE66B3543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4CE2FDA-F7E7-4A78-9E42-27359A3A4FBD} = {02D645CE-6933-4C1D-B387-621D29130674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5512A180-BF44-47C5-B56D-A55A0A3EA1F4}
