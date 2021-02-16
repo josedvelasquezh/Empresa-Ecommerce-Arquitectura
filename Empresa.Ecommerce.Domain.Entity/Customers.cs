@@ -2,9 +2,9 @@
 
 namespace Empresa.Ecommerce.Domain.Entity
 {
-    public class Customer
+    public class Customers
     {
-        public String CustomerID { get; set; }
+        public String CustomerId { get; set; }
         public String CompanyName { get; set; }
         public String ContactName { get; set; }
         public String ContactTitle { get; set; }
