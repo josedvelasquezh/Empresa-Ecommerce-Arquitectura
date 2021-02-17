@@ -11,8 +11,8 @@ namespace Empresa.Ecommerce.Application.Interface
     {
         #region Metodos Sincronos
 
-        Response<bool> Insert(CustomersDTO customer);
-        Response<bool> Update(CustomersDTO customer);
+        Response<bool> Insert(CustomersDTO customerDTO);
+        Response<bool> Update(CustomersDTO customerDTO);
         Response<bool> Delete(String customerId);
         Response<CustomersDTO> Get(String customerId);
         Response<IEnumerable<CustomersDTO>> GetAll();
@@ -21,8 +21,8 @@ namespace Empresa.Ecommerce.Application.Interface
 
         #region Metodos Asincronos
 
-        Task<Response<bool>> InsertAsync(CustomersDTO customer);
-        Task<Response<bool>> UpdateAsync(CustomersDTO customer);
+        Task<Response<bool>> InsertAsync(CustomersDTO customerDTO);
+        Task<Response<bool>> UpdateAsync(CustomersDTO customerDTO);
         Task<Response<bool>> DeleteAsync(String customerId);
         Task<Response<CustomersDTO>> GetAsync(String customerId);
         Task<Response<IEnumerable<CustomersDTO>>> GetAllAsync();
